@@ -29,8 +29,8 @@ public class MpGenerator {
 	 */
 
 	private static final String USERNAME = "sa";
-	private static final String PASSWORD = "Qwe123";
-	private static final String URL = "jdbc:sqlserver://192.168.2.200:1433;databasename=RYTreasureDB";
+	private static final String PASSWORD = "xxxxxxx";
+	private static final String URL = "jdbc:sqlserver://xxxxxxxx:1433;databasename=xxxxxxxxxxxxxxxxxx";
 
 	public static void main(String[] args) {
 		// 代码生成器
