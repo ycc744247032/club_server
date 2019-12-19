@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYAccountsDB.ClubLevelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYAccounts.ClubLevel">
+        <id column="id" property="id" />
+        <result column="userId" property="userId" />
+        <result column="parentId" property="parentId" />
+        <result column="ghId" property="ghId" />
+        <result column="role" property="role" />
+        <result column="ratio" property="ratio" />
+        <result column="display" property="display" />
+        <result column="Remark" property="Remark" />
+        <result column="ModDate" property="ModDate" />
+    </resultMap>
+
+</mapper>

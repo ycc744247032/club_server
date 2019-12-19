@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYAccountsDB.ClubRoomNewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYAccounts.ClubRoomNew">
+        <id column="GhId" property="GhId" />
+        <result column="Name" property="Name" />
+        <result column="CreaterUid" property="CreaterUid" />
+        <result column="GhCode" property="GhCode" />
+        <result column="GhDesc" property="GhDesc" />
+        <result column="Nullity" property="Nullity" />
+        <result column="CreateDate" property="CreateDate" />
+        <result column="NullityDate" property="NullityDate" />
+        <result column="IsPublic" property="IsPublic" />
+        <result column="Score" property="Score" />
+        <result column="Type" property="Type" />
+        <result column="num" property="num" />
+    </resultMap>
+
+</mapper>

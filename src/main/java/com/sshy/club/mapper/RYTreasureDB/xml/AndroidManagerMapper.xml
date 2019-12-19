@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYTreasureDB.AndroidManagerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYTreasure.AndroidManager">
+        <id column="UserID" property="UserID" />
+        <result column="ServerID" property="ServerID" />
+        <result column="MinPlayDraw" property="MinPlayDraw" />
+        <result column="MaxPlayDraw" property="MaxPlayDraw" />
+        <result column="MinTakeScore" property="MinTakeScore" />
+        <result column="MaxTakeScore" property="MaxTakeScore" />
+        <result column="MinReposeTime" property="MinReposeTime" />
+        <result column="MaxReposeTime" property="MaxReposeTime" />
+        <result column="ServiceTime" property="ServiceTime" />
+        <result column="ServiceGender" property="ServiceGender" />
+        <result column="Nullity" property="Nullity" />
+        <result column="CreateDate" property="CreateDate" />
+        <result column="AndroidNote" property="AndroidNote" />
+    </resultMap>
+
+</mapper>

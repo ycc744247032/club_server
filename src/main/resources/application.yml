@@ -1,0 +1,20 @@
+spring:
+  datasource:
+   druid:
+      db1:
+        url: jdbc:sqlserver://192.168.2.200:1433;databasename=RYAccountsDB
+        username: sa
+        password: Qwe123  
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      db2:
+        url: jdbc:sqlserver://192.168.2.200:1433;databasename=RYTreasureDB
+        username: sa
+        password: Qwe123
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+mybatis-plus:
+    mapper-locations: classpath:com.sshy.club.mapper/**/*.xml
+    type-aliases-package: com.sshy.club.entity.*
+   
+    configuration: 
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+      map-underscore-to-camel-case: false

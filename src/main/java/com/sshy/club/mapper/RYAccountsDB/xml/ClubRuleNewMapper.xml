@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYAccountsDB.ClubRuleNewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYAccounts.ClubRuleNew">
+        <id column="Id" property="Id" />
+        <result column="RuleName" property="RuleName" />
+        <result column="RuleStr" property="RuleStr" />
+        <result column="RuleDesc" property="RuleDesc" />
+        <result column="GameType" property="GameType" />
+        <result column="GhId" property="GhId" />
+        <result column="Nullity" property="Nullity" />
+        <result column="NullityDate" property="NullityDate" />
+    </resultMap>
+
+</mapper>

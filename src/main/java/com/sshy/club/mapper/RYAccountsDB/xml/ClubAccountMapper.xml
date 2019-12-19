@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYAccountsDB.ClubAccountMapper">
+
+
+	
+	
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYAccounts.ClubAccount">
+        <id column="ID" property="ID" />
+        <result column="UserId" property="UserId" />
+        <result column="GhId" property="GhId" />
+        <result column="Status" property="Status" />
+        <result column="GhModDate" property="GhModDate" />
+        <result column="GhRemark" property="GhRemark" />
+        <result column="PullMan" property="PullMan" />
+        <result column="PullTime" property="PullTime" />
+        <result column="Score" property="Score" />
+        <result column="Role" property="Role" />
+        <result column="RoleTime" property="RoleTime" />
+        <result column="SumMan" property="SumMan" />
+        <result column="SumScore" property="SumScore" />
+        <result column="TopId" property="TopId" />
+        <result column="FloatScore" property="FloatScore" />
+        <result column="lock" property="lock" />
+        <result column="Grade" property="Grade" />
+        <result column="finance" property="finance" />
+    </resultMap> 
+    
+      
+   
+    
+    
+</mapper>

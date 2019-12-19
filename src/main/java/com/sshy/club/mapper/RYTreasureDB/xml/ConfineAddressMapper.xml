@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sshy.club.mapper.RYTreasureDB.ConfineAddressMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sshy.club.entity.RYTreasure.ConfineAddress">
+        <id column="AddrString" property="AddrString" />
+        <result column="EnjoinLogon" property="EnjoinLogon" />
+        <result column="EnjoinOverDate" property="EnjoinOverDate" />
+        <result column="CollectDate" property="CollectDate" />
+        <result column="CollectNote" property="CollectNote" />
+    </resultMap>
+
+</mapper>
