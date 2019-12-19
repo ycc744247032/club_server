@@ -2,14 +2,14 @@ spring:
   datasource:
    druid:
       db1:
-        url: jdbc:sqlserver://192.168.2.200:1433;databasename=RYAccountsDB
+        url: jdbc:sqlserver://xxxxxx:1433;databasename=xxxxxxxx
         username: sa
-        password: Qwe123  
+        password: xxxxxxx 
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
       db2:
-        url: jdbc:sqlserver://192.168.2.200:1433;databasename=RYTreasureDB
+        url: jdbc:sqlserver://xxxxxxxx:1433;databasename=xxxxxxxx
         username: sa
-        password: Qwe123
+        password: xxxxxx
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 mybatis-plus:
     mapper-locations: classpath:com.sshy.club.mapper/**/*.xml
